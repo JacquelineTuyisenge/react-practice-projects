@@ -8,7 +8,6 @@ import { API } from "../utils/api";
 import { DynamicData } from "../@types/DynamicData";
 
 const Users = () => {
-	const e = "hash";
 	const dispatch = useAppDispatch();
 	const {
 		data: users,
